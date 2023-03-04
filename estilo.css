@@ -60,7 +60,7 @@ html{
 }
 
 .nav-responsive{
-    background-color: rgb(85 54 125);
+    background-color: rgb(59, 124, 162);
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -193,7 +193,8 @@ html{
 
 .sobremi .fila .col ul li span{
     background-color: rgb(85, 152, 190);
-    padding: 3px;
+    color: #000;
+     padding: 1px;
     font-weight: bold;
     border-radius: 5px;
 
