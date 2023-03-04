@@ -160,7 +160,7 @@ html{
 }
 
 .sobremi .contenido-seccion p span{
-    color: rgb(85 54 125);
+    color: rgb(85, 152, 190);
     font-weight: bold;
 }
 
@@ -187,12 +187,12 @@ html{
 
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: rgb(85 54 125);
+    color: rgb(85, 152, 190);
     width: 130px;
 }
 
 .sobremi .fila .col ul li span{
-    background-color: rgb(85 54 125) ;
+    background-color: rgb(85, 152, 190);
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -237,6 +237,9 @@ html{
     position: relative;
     z-index: 10;
 }
+.sobremi a{
+    text-decoration: none;
+}
 
 .sobremi button .overlay{
     position: absolute;
@@ -244,7 +247,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: rgb(85 54 125) ;
+    background-color: rgb(85, 152, 190);
     z-index: -1;
     transition: 1s ;
 
@@ -305,7 +308,7 @@ width: 100% ;
 }
 
 .skills .skill .progreso{
-    background-color: rgb(85 54 125);
+    background-color: rgb(85, 152, 190);
     top: 0;
     left: 0;
     height: 8px;
@@ -316,7 +319,7 @@ width: 100% ;
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: rgb(85 54 125);
+    background-color: rgb(85, 152, 190);
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -474,31 +477,31 @@ width: 100% ;
     margin-bottom: 10px;
 }
 .curriculum .fila .item .casa{
-    color: #1CB698;
+    color: rgb(85, 152, 190);
     font-size: 22px ;
     font-weight: bold;
     display: block;
 }
 .curriculum .fila .item .fecha{
     display: block;
-    color:  #1CB698;
+    color:  rgb(85, 152, 190);
     margin-bottom: 10px;
 }
 .curriculum .fila .item p{
     line-height: 24px;
 }
 .curriculum .fila .izq{
-    border-right: 2px solid #1CB698;
+    border-right: 2px solid rgb(85, 152, 190);
     margin-right: 20px;
 }
 .curriculum .fila .der{
-    border-right: 2px solid #1CB698;
+    border-right: 2px solid rgb(85, 152, 190);
     margin-left: 20px;
 }
 
 .curriculum .fila .item .conectori{
     height: 2px;
-    background-color: #1CB698;
+    background-color: rgb(85, 152, 190);
     width: 47px;
     position: absolute;
     top: 50%;
@@ -511,14 +514,14 @@ width: 100% ;
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: rgb(85, 152, 190);
     float: right;
     position: relative;
     bottom: 4px;
 }
 .curriculum .fila .item .conectord{
     height: 2px;
-    background-color: #1CB698;
+    background-color: rgb(85, 152, 190);
     width: 47px;
     position: absolute;
     top: 50%;
@@ -531,7 +534,7 @@ width: 100% ;
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: rgb(85, 152, 190);
     float: left;
     position: relative;
     bottom: 4px;
@@ -564,6 +567,10 @@ width: 100% ;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.portfolio .galeria a{
+    color: #000;
+    text-decoration: none;
+}
 .portfolio .galeria .proyecto{
     position: relative;
     max-width: 340px;
@@ -577,11 +584,12 @@ width: 100% ;
 }
 .portfolio .galeria .proyecto .overlay{
     position: absolute;
+    color: #000;
     top: 0;
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8));
+    background: linear-gradient(rgb(85, 152, 190, .8), rgba(28,182,152,.8));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -657,7 +665,7 @@ width: 100% ;
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: rgb(85, 152, 190);;
     z-index: -1;
     transition: 1s;
 }
@@ -683,7 +691,7 @@ width: 100% ;
     margin-bottom: 20px;
 }
 .contacto .col .info ul li i{
-    color: #1CB698;
+    color: rgb(85, 152, 190);;
     display:  inline-block;
     margin-right: 20px;
 }
@@ -719,7 +727,7 @@ footer .arriba{
     display:block;
     width: 50px;
     height: 50px;
-    background-color: #1CB698;
+    background-color: rgb(85, 152, 190);;
     color: #fff;
     position: absolute;
     left: 50%;
