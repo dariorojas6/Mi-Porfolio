@@ -347,17 +347,18 @@
       <h2>CONTACTO</h2>
       <div class="fila">
         <!-- Formulario -->
-        <div class="col">
-          <input type="text" placeholder="Tú Nombre">
-          <input type="text" placeholder="Número telefónico">
-          <input type="text" placeholder="Dirección de correo">
-          <input type="text" placeholder="Tema">
-          <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+        <form id="form" class="col">
+          <input type="text"  name="name"  placeholder="Tú Nombre">
+          <input type="text" name="numero"  placeholder="Número telefónico">
+          <input type="text"  name="mail" placeholder="Dirección de correo">
+          <!-- <input type="text" name="tema"  placeholder="Tema"> -->
+          <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
           <button>
             Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
             <span class="overlay"></span>
           </button>
-        </div>
+        </form>
+        <a href="mailto:dario43055@gmail.com" id="trucazo">mail</a>
         <!-- Mapa -->
         <div class="col">
          <img src="img/ubicacion.png" alt="">
@@ -394,6 +395,20 @@
   </footer>
 
   <script src="script.js"></script>
+  <script>
+    const $form = document.querySelector('#form')
+    const $buttonMailto = document.querySelector('#trucazo')
+
+   $form.addEventListener('submit', handleSubmit)
+
+   function handleSubmit(event){
+    event.preventDefault()
+    const form = new FormData(this)
+    console.log(form.get('name'))
+    $buttonMailto.setAttribute('href', `mailto:dario43055@gmail.com?subject=${form.get('name')}${form.get('email')}&body=${form.get('mensaje')}`)
+    $buttonMailto.click()
+   }
+  </script>
  
 
 </body>

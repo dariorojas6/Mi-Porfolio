@@ -809,6 +809,9 @@ footer .arriba{
     width: 100%;
  }
 }
+.contacto #trucazo{
+    opacity: 0;
+}
 
 
 
