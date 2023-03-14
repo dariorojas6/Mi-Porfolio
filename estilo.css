@@ -744,7 +744,7 @@ footer .arriba{
     nav{
         display: none;
     }
-    .nav-responsive{
+    .nav.responsive{
         display: block;
     }
     nav.responsive{
@@ -764,7 +764,7 @@ footer .arriba{
 
     }
  }
-@media  screen and(max-width:700px) {
+@media screen and (max-width:700px) {
  .sobremi .fila{
     display: block;
  }  
