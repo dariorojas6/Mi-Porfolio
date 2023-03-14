@@ -72,7 +72,7 @@ html{
 
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url('img/fondo.jpg');
+    url('img/fondo.gif');
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -154,7 +154,7 @@ html{
     padding: 20px 0 ;
 }
 .sobremi .contenido-seccion p{
-    font: 18px;
+    font-size: 20px;
     line-height: 22px;
     margin-bottom: 20px;
 }
@@ -162,6 +162,11 @@ html{
 .sobremi .contenido-seccion p span{
     color: rgb(85, 152, 190);
     font-weight: bold;
+}
+
+.sobremi .contenido-seccion img{
+    width: 100%;
+    display: block;
 }
 
 .sobremi .fila{
